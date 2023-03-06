@@ -4,9 +4,15 @@
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+ 
+}
+#ImgTopBar{
+  height: 80px;
+  width: 320px;
 }
 li {
-    float: left;
+    float: none;
+    
   }
 li a {
     display: block;
@@ -14,7 +20,20 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    
+    
+   
   }
   li a:hover {
     background-color: #111111;
+  }
+
+  ul li.MargLeft{
+    float: left;
+  }
+  ul li.MargRight{
+    float: right;
+  }
+  ul li.MargCenter{
+    float:left
   }
